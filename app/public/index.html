@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join Room</title>
+</head>
+
+<body>
+
+    <form action="/chat.html">
+        <h1>Tham Phòng</h1>
+        <input type="text" name="room" id="room" placeholder="room">
+        <input type="text" name="username" id="username" placeholder="username">
+        <button type="submit" name="">Tham gia</button>
+    </form>
+
+    <script>
+        const socket = io();
+        // // nhân lại event count
+        // socket.on("send increment server to client", (count) => {
+        //     console.log(" Đã chào :" + count);
+        //     document.getElementById("value-count").innerHTML = count;
+        // });
+
+        // document.getElementById("btn-increment").addEventListener("click", () => {
+        //     console.log("run");
+        //     // gửi sự kiện từ client lên server
+        //     socket.emit("send increment client to server")
+        // })
+    </script>
+
+</body>
+
+</html>
